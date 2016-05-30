@@ -19,7 +19,7 @@ int main()
 	unsigned int otherSymbolsCount = calculateOtherSymbolsCount(userInput);
 
 	// This is similar to C# StringBuilder class
-	//http://www.cplusplus.com/reference/sstream/stringstream/ - strinstream reference
+	//http://www.cplusplus.com/reference/sstream/stringstream/ - stringstream reference
 	//http://www.dreamincode.net/forums/topic/95826-stringstream-tutorial/ - stringstream tutorial
 	stringstream infoBuilder; 
 	
