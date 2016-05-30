@@ -36,7 +36,8 @@ int main()
 	printInfoOnTheConsole(infoBuilder.str());
 	infoBuilder = stringstream();
 
-	getline(cin, userInput); //
+	//This line allows us to see our output. Without it, the console closes immediately
+	getline(cin, userInput); 
 }
 
 string readUserInputFromConsole()
